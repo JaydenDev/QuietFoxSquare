@@ -109,15 +109,17 @@ scrollbox[part="scrollbox"][flex="1"][orient="horizontal"] {
 
 [sizemode="maximized"] [first-visible-tab] {
     margin-left: -12px !important;
+    margin-right: -12px !important;
 }
 
 [sizemode="maximized"] [first-visible-tab] stack {
-    margin-left: 12px !important;
+    margin-left: 2px !important;
+    margin-right: 12px !important;
 }
 
 .tab-background, .tab-loading-burst  {
-    border-radius: var(--tab-corner-rounding) var(--tab-corner-rounding) 0px 0px !important;
-    margin: -1px !important;
+    border-radius: 0px 0px 0px 0px !important;
+    margin: 1px !important;
 }
 
 tab:not(:active) .tab-background {
