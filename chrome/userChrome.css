@@ -1,21 +1,21 @@
 /*
 
+Original Work:
 Quietfox Reborn v0.9.2r
-
 https://github.com/TheGITofTeo997/quietfoxReborn
-
 Thanks for using our file!
-
 Edit by: Krokko&Teo
+
+I have made a new theme based on this one. I am trying to remove every rounded corner while keeping it modern!
 */
 
 * { 
 /* -------------------- 🎨 Customization 🎨 -------------------- */
-    --tab-corner-rounding: 7px;
-    --button-corner-rounding: 7px;
-    --menu-item-height: 35px;
+    --tab-corner-rounding: 0px;
+    --button-corner-rounding: 0x;
+    --menu-item-height: 10px;
     --animation-speed: 0.15s;
-    --menu-corner-rounding: 11px;
+    --menu-corner-rounding: 5px;
     --toolbarbutton-hover-background: rgba(127, 127, 127, 0.5);
 }
 
